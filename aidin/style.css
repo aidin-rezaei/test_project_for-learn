@@ -17,5 +17,6 @@ header{
 .menu ul{
     display: flex;
     justify-content: right;
-    item
+    align-items: center;
+    gap: 50px;
 }
