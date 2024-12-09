@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background: #7e7e7e;
+    font-size: 30px;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.team a div{
+    width: 200px;
+    height: 200px;
+    background: #ababab;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
